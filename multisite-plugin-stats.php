@@ -89,7 +89,7 @@ class MultisitePluginStats {
 		<div class='wrap'>
 		<div class="icon32" id="icon-plugins"><br></div>
 		<h2><?php _e('Plugin Statistics', 'multisite_plugin_stats'); ?></h2>
-		<h3>Network Activated Plugins (<?php echo count($network_plugins); ?>)</h3>
+		<h3><?php _e('Network Activated Plugins', 'multisite_plugin_stats'); ?> (<?php echo count($network_plugins); ?>)</h3>
 		<ul class="plugin_list">
 		<?php
 			foreach ($network_plugins as $plugin => $etc) {
@@ -100,7 +100,7 @@ class MultisitePluginStats {
 		?>
 		</ul>
 		
-		<h3>Active Plugins (<?php echo count($active_plugins); ?>)</h3>
+		<h3><?php _e('Active Plugins', 'multisite_plugin_stats'); ?> (<?php echo count($active_plugins); ?>)</h3>
 		<ul class="plugin_list">
 		<?php
 			foreach ($active_plugins as $plugin => $blog_array) {
@@ -111,7 +111,7 @@ class MultisitePluginStats {
 		?>
 		</ul>
 		
-		<h3>Inactive Plugins (<?php echo count($plugin_info); ?>)</h3>
+		<h3><?php _e('Inactive Plugins', 'multisite_plugin_stats'); ?> (<?php echo count($plugin_info); ?>)</h3>
 		<ul class="plugin_list">
 		<?php
 			foreach ($plugin_info as $plugin => $info) {
