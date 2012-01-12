@@ -1,10 +1,10 @@
 === Plugin Name ===
 Contributors: ljg3
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=lew%40goettner%2enet&lc=US&item_name=Lew%20Goettner&item_number=1001&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted
+Donate link: http://tiptheweb.org/tip/?link=http%3A%2F%2Fwww.goettner.net%2F
 Tags: multisite, plugins
 Requires at least: 3.1
 Tested up to: 3.3.1
-Stable tag: 4.3
+Stable tag: 1.0
 
 A multisite plugin to show plugin activations across all your sites. 
 
