@@ -1,12 +1,15 @@
-=== WordPress Multisite Plugin Stats ===
+WordPress Multisite Plugin Stats
+================================
 
 A multisite plugin to show plugin activations across all your sites. 
 
-== Description ==
+Description
+-----------
 
 This plugin was designed to let you know a little bit more about what plugins your users are running on your multisite install. It's useful it you're trying to clean up unused plugins, or determine plugin popularity. 
 
-== Installation ==
+Installation
+------------
 
 1.  Download the plugin file
 1.  Unzip the file into a folder on your hard drive
