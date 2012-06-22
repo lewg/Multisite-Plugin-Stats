@@ -1,6 +1,6 @@
 === Plugin Name ===
 Contributors: ljg3
-Donate link: http://tiptheweb.org/tip/?link=https%3A%2F%2Fgithub.com%2Flewg%2FMultisite-Plugin-Stats&title=WordPress%20Plugin
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=lew%40goettner%2enet&lc=US&item_name=Lew%20Goettner&item_number=1001&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted
 Tags: multisite, plugins
 Requires at least: 3.1
 Tested up to: 3.3.1
