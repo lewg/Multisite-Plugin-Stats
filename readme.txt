@@ -3,8 +3,8 @@ Contributors: ljg3
 Donate link: http://tiptheweb.org/tip/?link=https%3A%2F%2Fgithub.com%2Flewg%2FMultisite-Plugin-Stats&title=WordPress%20Plugin
 Tags: multisite, plugins
 Requires at least: 3.1
-Tested up to: 3.3.1
-Stable tag: 1.0
+Tested up to: 3.4
+Stable tag: 1.1
 
 A multisite plugin to show plugin activations across all your sites. 
 
@@ -33,4 +33,7 @@ Well, I can only tell you why I use it. You are your own person, and have to mak
 
 = 1.0 =
 * Initial Public Release. Enjoy!
+
+= 1.1 =
+* Added ability to list blogs with plugin activated
 
