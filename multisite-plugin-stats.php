@@ -109,7 +109,7 @@ class MultisitePluginStats {
 		</ul>
 		
 		<h3><?php _e('Active Plugins', 'multisite_plugin_stats'); ?> (<?php echo count($active_plugins); ?>)</h3>
-		<p><em>Click the count to display the blogs using a given plugin.</em></p>
+		<p><em><?php _e('Click the count to display the blogs using a given plugin.'); ?></em></p>
 		<ul class="plugin_list">
 		<?php
 			$counter = 0;
