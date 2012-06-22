@@ -9,7 +9,7 @@ Author URI: http://www.goettner.net
 License: GPL2
 Network: true
 
-Copyright 2012	Lewis J. Goettner, III	(email : lew@goettner.net)
+Copyright 2012  Lewis J. Goettner, III  (email : lew@goettner.net)
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License, version 2, as 
@@ -17,12 +17,12 @@ published by the Free Software Foundation.
 
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.	See the
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
-Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA	 02110-1301	 USA
+Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 */
 
@@ -64,9 +64,9 @@ class MultisitePluginStats {
 
 		// Scan the sites for activation
 		$blogs = $wpdb->get_col("SELECT blog_id FROM {$wpdb->blogs} WHERE site_id = {$wpdb->siteid} AND spam = 0 AND deleted = 0");
-		if ($blogs) {
-			foreach($blogs as $blog_id) {
-				switch_to_blog($blog_id);
+		if ($blogs)	{
+		  foreach($blogs as $blog_id)	{
+	   		switch_to_blog($blog_id);
 				
 				// Get active plugins
 				$site_plugins = (array) get_option( 'active_plugins', array() );
@@ -80,7 +80,7 @@ class MultisitePluginStats {
 					}
 				}
 				
-				restore_current_blog();
+		    restore_current_blog();
 			}
 		}
 		
@@ -126,9 +126,9 @@ class MultisitePluginStats {
 	
 	// Add a little style
 	function custom_css() {
-		 echo '<style type="text/css">
-						 .plugin_list li { margin-left: 2em; }
-					 </style>';
+	   echo '<style type="text/css">
+	           .plugin_list li { margin-left: 2em; }
+	         </style>';
 	}
 	
 }
